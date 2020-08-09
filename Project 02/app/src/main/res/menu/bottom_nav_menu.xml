@@ -4,16 +4,16 @@
     <item
         android:id="@+id/tab1"
         android:icon="@drawable/info_test_01"
-        android:title="Info" />
+        android:title="" />
 
     <item
         android:id="@+id/tab2"
         android:icon="@drawable/search_icon_25dp"
-        android:title="Search" />
+        android:title="" />
 
     <item
         android:id="@+id/tab3"
         android:icon="@drawable/set_icon_25dp"
-        android:title="Board" />
+        android:title="" />
 
 </menu>

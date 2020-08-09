@@ -9,16 +9,16 @@
         android:id="@+id/imageView4"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="#2D2F31" />
+        android:background="#fccac9" />
 
     <ImageButton
         android:id="@+id/shield_off_button"
-        android:background="@android:color/transparent"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:adjustViewBounds="true"
+        android:background="@android:color/transparent"
         android:scaleType="fitCenter"
         android:src="@drawable/shield_on_off"
-        app:srcCompat="@drawable/shield_off_130px" />
+        app:srcCompat="@drawable/peko_not_selected_55px" />
 </FrameLayout>

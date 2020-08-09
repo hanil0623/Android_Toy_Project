@@ -11,7 +11,7 @@ import android.widget.TextView;
 
 import java.io.IOException;
 import java.util.List;
-
+/* 주소 정보를 받아 위도, 경도 값으로 바꿔주기 위한 액티비티 */
 public class StoreInfoActivity extends AppCompatActivity {
     double lat = -1, lang = -1;
     String storename, storeaddr, storetype, storehash, storetell, storeaddr2;
@@ -66,12 +66,6 @@ public class StoreInfoActivity extends AppCompatActivity {
             bundle.putDouble("latitude", lat);
             bundle.putDouble("longitude", lang);
             bundle.putString("storename", storename);
-            /*
-            bundle.putString("storeaddr", storeaddr);
-            bundle.putString("storeaddr2", storeaddr2);
-            bundle.putString("storetype", storetype);
-            bundle.putString("storetell", storetell);
-            bundle.putString("storehash", storehash);*/
             mFragment.setArguments(bundle);
         }
     }

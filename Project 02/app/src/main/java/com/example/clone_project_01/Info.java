@@ -3,7 +3,7 @@ package com.example.clone_project_01;
 import android.graphics.drawable.Drawable;
 import android.os.Parcel;
 import android.os.Parcelable;
-
+/* Parcelable 객체를 통해 값을 전달하기 위함 */
 public class Info implements Parcelable {
     public String key;
     public String storeType;

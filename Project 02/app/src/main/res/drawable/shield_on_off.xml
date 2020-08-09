@@ -2,13 +2,13 @@
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
     <!-- selected -->
     <item android:state_selected="true"
-        android:drawable="@drawable/shield_on_130px" />
+        android:drawable="@drawable/peko_selected_55px" />
     <!-- pressed -->
     <item android:state_pressed="true"
-        android:drawable="@drawable/shield_on_130px" />
+        android:drawable="@drawable/peko_selected_55px" />
     <!-- focused -->
     <item android:state_focused="true"
-        android:drawable="@drawable/shield_on_130px" />
+        android:drawable="@drawable/peko_selected_55px" />
     <!-- default -->
-    <item android:drawable="@drawable/shield_off_130px" />
+    <item android:drawable="@drawable/peko_not_selected_55px" />
 </selector>

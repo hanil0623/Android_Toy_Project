@@ -13,7 +13,7 @@ import androidx.navigation.ui.AppBarConfiguration;
 import androidx.navigation.ui.NavigationUI;
 
 import java.util.ArrayList;
-
+/* Click 버튼 클릭 시 나오는 BottomNavigationView 클래스 */
 public class NavigationActivity extends AppCompatActivity {
     BottomNavigationView bottomNavigationView;
     Fragment1 fragment1;
@@ -35,7 +35,7 @@ public class NavigationActivity extends AppCompatActivity {
         getSupportFragmentManager().beginTransaction().replace(R.id.main_layout, fragment1).commitAllowingStateLoss();
 
         bottomNavigationView.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener(){
-
+            // 3개의 탭 중 각 탭이 선택되면 해당 fragment를 띄운다.
             @Override
             public boolean onNavigationItemSelected(@NonNull MenuItem menuItem) {
                 switch(menuItem.getItemId()){
@@ -59,5 +59,4 @@ public class NavigationActivity extends AppCompatActivity {
             }
         });
     }
-
 }
