@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SettingActivity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="wrap_content"
+            android:layout_height="86dp"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/setting_image_02" />
+
+        <ImageButton
+            android:id="@+id/querybutton"
+            android:layout_width="174dp"
+            android:layout_height="56dp"
+            android:layout_gravity="right"
+            android:layout_marginTop="15dp"
+            android:background="@android:color/transparent"
+            app:srcCompat="@drawable/defaultqueryimage"
+            tools:srcCompat="@drawable/defaultqueryimage" />
+
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/TestSettingView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+    <ListView
+        android:id="@+id/SettingView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

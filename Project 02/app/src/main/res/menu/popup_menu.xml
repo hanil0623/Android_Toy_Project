@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/namemenu"
+        android:title="업소명(가나다)" >
+    </item>
+    <item
+        android:id="@+id/snackmenu"
+        android:title="과자점" >
+    </item>
+    <item
+        android:id="@+id/cafemenu"
+        android:title="다방" >
+    </item>
+    <item
+        android:id="@+id/icecreammenu"
+        android:title="아이스크림" >
+    </item>
+    <item
+        android:id="@+id/coffeemenu"
+        android:title="커피숍" >
+    </item>
+    <item
+        android:id="@+id/fastfoodmenu"
+        android:title="패스트푸드" >
+    </item>
+    <item
+        android:id="@+id/conveniencemenu"
+        android:title="편의점" >
+    </item>
+    <item
+        android:id="@+id/etcmenu"
+        android:title="기타" >
+    </item>
+</menu>
