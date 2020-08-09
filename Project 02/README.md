@@ -12,3 +12,9 @@
 
  + 자세한 내용은 해당 소스 코드 주석에 있습니다. :grinning:
 
+ #### ISSUE
+
+ - Firebase에서 부분 문자 검색이 되지 않는 문제 :point_down:
+
+   <img src="/img/[P2]Parsing_Problem.gif" width="80%" height="80%">
+
